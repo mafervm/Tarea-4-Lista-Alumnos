@@ -4,7 +4,12 @@ import androidx.annotation.DrawableRes
 
 data class Person(
     @DrawableRes val img: Int,
-    val trabajo: String,
-    val genero: String,
-    val edad: Int
+    val id: Int,
+    val nombre: String,
+    val correo: String,
+    val semestre: Int,
+    val carrera: String,
+    val becado: Boolean,
+    val promedio: Int,
+    val boletos: Int
 )
